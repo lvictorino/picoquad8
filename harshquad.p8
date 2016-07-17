@@ -1,10 +1,14 @@
 pico-8 cartridge // http://www.pico-8.com
 version 7
 __lua__
+--[[ HARSHQUAD DEMAKE ON PICO-8
+     Made by Laurent Victorino (@on_code)
+     This small demake has been made during a game jam (~8h of work)
+     More about the original game: www.harshquad.com
+]]
 
---game state
+-- game state (0=main menu,1=game)
 state=0
-
 quadsize=8
 
 function _init()
